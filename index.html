@@ -14,7 +14,6 @@
         height:85%;
         font-weight: bold;
         flex-direction: row;
-        greet+= "alex domnic" +`<div id="date"> It's ${date}</div>`;
       }
 
       #container {
@@ -66,6 +65,7 @@
         greet = 'good evening.  ';
 
     document.getElementById('lbl').innerHTML = `
+        greet+= "alex domnic" +`<div id="date"> It's ${date}</div>`;
         <div class="container">
           <div id="date"> ${date}</div>
           <div class="greeting">${greet}</div>
